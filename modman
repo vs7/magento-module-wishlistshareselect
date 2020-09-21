@@ -1,0 +1,5 @@
+app/code/community/VS7/WishlistShareSelect                             app/code/community/VS7/WishlistShareSelect
+app/etc/modules/VS7_WishlistShareSelect.xml                            app/etc/modules/VS7_WishlistShareSelect.xml
+app/design/frontend/base/default/layout/vs7_wishlistshareselect.xml    app/design/frontend/base/default/layout/vs7_wishlistshareselect.xml
+app/design/frontend/base/default/template/vs7_wishlistshareselect      app/design/frontend/base/default/template/vs7_wishlistshareselect
+app/locale/ru_RU/VS7_WishlistShareSelect.csv                           app/locale/ru_RU/VS7_WishlistShareSelect.csv

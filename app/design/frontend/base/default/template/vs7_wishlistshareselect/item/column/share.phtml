@@ -1,0 +1,4 @@
+<?php
+$item = $this->getItem();
+?>
+<input type="checkbox" name="show_in_share[<?php echo $item->getWishlistItemId() ?>]" value="1" <?php if (!empty($item->getShowInShare())):?>checked<?php endif;?>/>

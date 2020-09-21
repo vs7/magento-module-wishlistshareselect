@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <vs7_wishlistshareselect>
+            <label>VS7</label>
+            <sort_order>99999</sort_order>
+        </vs7_wishlistshareselect>
+    </tabs>
+    <sections>
+        <vs7_wishlistshareselect>
+            <label>VS7 Wishlish Share Select Options</label>
+            <tab>vs7_wishlistshareselect</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general translate="label">
+                    <label>Recaptcha Setting</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <secret>
+                            <label>Secret key</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </secret>
+                        <sitekey>
+                            <label>Site key</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </sitekey>
+                    </fields>
+                </general>
+                <email translate="label">
+                    <label>Email Setting</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <recipients_count>
+                            <label>Recipients count</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </recipients_count>
+                    </fields>
+                </email>
+            </groups>
+        </vs7_wishlistshareselect>
+    </sections>
+</config>

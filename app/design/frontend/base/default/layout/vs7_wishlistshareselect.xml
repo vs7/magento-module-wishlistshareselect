@@ -1,0 +1,30 @@
+<layout version="0.1.0">
+    <wishlist_index_index>
+        <reference name="customer.wishlist.items">
+            <block type="vs7_wishlistshareselect/customer_wishlist_item_column_share" name="customer.wishlist.item.share" after="customer.wishlist.item.buy" template="vs7_wishlistshareselect/item/column/share.phtml">
+                <action method="setTitle" translate="title">
+                    <title>Show in share</title>
+                </action>
+            </block>
+        </reference>
+    </wishlist_index_index>
+    <wishlist_index_share>
+        <reference name="head">
+            <block type="core/text" name="google.recaptcha">
+                <action method="setText">
+                    <text>
+                        <![CDATA[<script type="text/javascript" src="//www.google.com/recaptcha/api.js"></script>]]>
+                    </text>
+                </action>
+            </block>
+        </reference>
+        <reference name="my.account.wrapper">
+            <block type="wishlist/share_wishlist" name="customer.wishlist" before="wishlist.sharing" template="vs7_wishlistshareselect/shared.phtml"/>
+        </reference>
+        <reference name="wishlist.sharing">
+            <action method="setTemplate">
+                <template>vs7_wishlistshareselect/sharing.phtml</template>
+            </action>
+        </reference>
+    </wishlist_index_share>
+</layout>
